@@ -1,0 +1,32 @@
+body{
+    margin-left: 20px;
+}
+
+.chats{
+    background-color: aliceblue;
+    padding: 15px;
+    display: inline-block;
+}
+
+.msg{
+    background-color: dodgerblue;
+    padding: 6px;
+    border-radius: 4px;
+}
+
+.btn{
+    background-color: lightgreen;
+    padding: 5px;
+    margin: 5px;
+    border-radius: 4px;
+    border: none;
+}
+
+.btn:hover{
+    cursor: pointer;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+}
